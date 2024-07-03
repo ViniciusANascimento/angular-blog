@@ -15,4 +15,5 @@ export class BigCardComponent implements OnInit{
   @Input() photoCover:string = "";
   @Input() titleCard:string = "";
   @Input() descriptionCard:string = "";
+  @Input() Id:string ="0"
 }
